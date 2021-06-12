@@ -13,11 +13,11 @@
   "entrypoints": {
     "main": [{
       "adapter": "kotlin",
-      "value": "com.remodstudios.archskeleton.fabric.ArchitecturySkeletonFabric"
+      "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabric"
     }],
     "client": [{
       "adapter": "kotlin",
-      "value": "com.remodstudios.archskeleton.fabric.ArchitecturySkeletonFabricClient"
+      "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabricClient"
     }]
   },
   "depends": {
