@@ -1,7 +1,8 @@
 @file:JvmName("PlatformInterface")
-package com.remodstudios.archskeleton
 
-import me.shedaniel.architectury.annotations.ExpectPlatform
+package com.cyber2000.mountainous.items
+
+import dev.architectury.injectables.annotations.ExpectPlatform
 
 @ExpectPlatform
 fun printHelloWorld(): Unit = throw AssertionError()

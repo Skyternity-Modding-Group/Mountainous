@@ -1,4 +1,4 @@
-package com.remodstudios.archskeleton.fabric
+package com.cyber2000.mountainous.fabric
 
 @Suppress("unused")
 object PlatformInterfaceImpl {

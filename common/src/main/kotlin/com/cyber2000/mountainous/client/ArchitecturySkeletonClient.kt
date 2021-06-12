@@ -1,4 +1,4 @@
-package com.remodstudios.archskeleton.client
+package com.cyber2000.mountainous.client
 
 object ArchitecturySkeletonClient {
     fun init() {

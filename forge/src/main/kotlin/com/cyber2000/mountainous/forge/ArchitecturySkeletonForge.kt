@@ -1,7 +1,7 @@
-package com.remodstudios.archskeleton.forge
+package com.cyber2000.mountainous.forge
 
-import com.remodstudios.archskeleton.ArchitecturySkeleton
-import com.remodstudios.archskeleton.client.ArchitecturySkeletonClient
+import com.cyber2000.mountainous.ArchitecturySkeleton
+import com.cyber2000.mountainous.client.ArchitecturySkeletonClient
 import me.shedaniel.architectury.platform.forge.EventBuses
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent

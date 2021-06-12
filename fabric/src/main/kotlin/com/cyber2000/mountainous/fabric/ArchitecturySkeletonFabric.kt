@@ -1,7 +1,7 @@
-package com.remodstudios.archskeleton.fabric
+package com.cyber2000.mountainous.fabric
 
-import com.remodstudios.archskeleton.ArchitecturySkeleton
-import com.remodstudios.archskeleton.client.ArchitecturySkeletonClient
+import com.cyber2000.mountainous.ArchitecturySkeleton
+import com.cyber2000.mountainous.client.ArchitecturySkeletonClient
 import net.fabricmc.api.ClientModInitializer
 import net.fabricmc.api.EnvType
 import net.fabricmc.api.Environment
@@ -10,7 +10,7 @@ import net.fabricmc.api.ModInitializer
 @Suppress("unused")
 object ArchitecturySkeletonFabric: ModInitializer {
     override fun onInitialize() {
-        ArchitecturySkeleton.init()
+        com.cyber2000.mountainous.ArchitecturySkeleton.init()
     }
 }
 

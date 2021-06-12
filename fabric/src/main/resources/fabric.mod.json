@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "archskeleton",
+  "id": "mountainous",
   "version": "${version}",
   "name": "Architectury Skeleton",
   "description": "If you're seeing this, then someone in our team messed up and forgot to replace this text. Actually, I'm surprised that this boots up at all - leocth",
@@ -8,7 +8,7 @@
     "ReMod Studios"
   ],
   "license": "Apache-2.0",
-  "icon": "assets/archskeleton/icon.png",
+  "icon": "assets/mountainous/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [{

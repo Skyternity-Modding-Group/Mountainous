@@ -4,7 +4,7 @@ loaderVersion="[1.12,)"
 license = "Apache-2.0"
 
 [[mods]]
-modId = "archskeleton"
+modId = "mountainous"
 version = "${version}"
 displayName = "Architectury Skeleton"
 authors = "ReMod Studios"
