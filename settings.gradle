@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        maven {
+            url "https://maven.fabricmc.net/"
+            name "Fabric"
+        }
+        maven {
+            url "https://maven.architectury.dev/"
+            name "Architectury"
+        }
+        maven {
+            url "https://maven.minecraftforge.net/"
+            name "Forge"
+        }
+        gradlePluginPortal()
+    }
+
+    plugins {
+        id "architectury-plugin" version archplugin_version
+        id "org.jetbrains.kotlin.jvm" version kotlin_version
+        id "dev.architectury.loom" version archloom_version
+    }
+}
+
+include("common")
+include("fabric")
+include("forge")
+
+rootProject.name = "architectury-skeleton"
