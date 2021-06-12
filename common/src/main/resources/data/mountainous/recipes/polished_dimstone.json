@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x  ",
+    "x  ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "mountainous:dimstone"
+    }
+
+  },
+  "result":
+  {
+    "item": "mountainous:polished_dimstone",
+    "count": 2
+  }
+}

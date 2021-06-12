@@ -1,0 +1,12 @@
+{
+  "disc.promises": {
+  "category": "disc",
+  "subtitle": "promises",
+  "sounds": [
+    {
+      "name": "mountainous:disc/cliff",
+      "stream": true
+    }
+  ]
+  }
+}
