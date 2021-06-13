@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mountainous:blocks/dimstone",
+    "top": "mountainous:blocks/dimstone",
+    "side": "mountainous:blocks/dimstone"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mountainous:block/polished_dimstone_slab"
+    },
+    "type=double": {
+      "model": "mountainous:block/polished_dimstone"
+    },
+    "type=top": {
+      "model": "mountainous:block/polished_dimstone_slab_top"
+    }
+  }
+}

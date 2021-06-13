@@ -7,4 +7,4 @@ import net.minecraft.item.MusicDiscItem
 import net.minecraft.sound.SoundEvent
 
 @ExpectPlatform
-fun createMusicDisc(comparatorIndex: Int, soundEvent: () -> SoundEvent, settings: Item.Settings): MusicDiscItem = throw AssertionError()
+fun createMusicDisc(comparatorIndex: Int, soundEvent: () -> SoundEvent, settings: Item.Settings): Item = throw AssertionError()

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mountainous:dimstone"
+  },
+  "result": "mountainous:dimstone_bricks",
+  "count": 1
+}

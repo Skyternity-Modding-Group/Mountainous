@@ -6,7 +6,7 @@ import net.minecraft.sound.SoundEvent
 import java.lang.AssertionError
 
 object MusicDiscImpl {
-    @JvmStatic fun createMusicDisc(comparatorIndex: Int, soundEvent: () -> SoundEvent, settings: Item.Settings): MusicDiscItem {
-        return CustomMusicDiscItem(comparatorIndex, soundEvent, settings)
+    @JvmStatic fun createMusicDisc(comparatorIndex: Int, soundEvent: () -> SoundEvent, settings: Item.Settings): Item {
+        return MusicDiscItem(comparatorIndex, soundEvent, settings)
     }
 }

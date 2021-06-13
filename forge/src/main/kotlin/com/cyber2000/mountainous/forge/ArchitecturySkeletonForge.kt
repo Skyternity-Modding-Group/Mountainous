@@ -14,6 +14,7 @@ object ArchitecturySkeletonForge {
         MOD_BUS.addListener(::onClientSetup)
 
         ArchitecturySkeleton.init();
+        Registration.init(MOD_BUS);
     }
 
     private fun onClientSetup(event: FMLClientSetupEvent) {

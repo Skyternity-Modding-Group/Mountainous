@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mountainous:block/dimstone_slab"
+    },
+    "type=double": {
+      "model": "mountainous:block/dimstone"
+    },
+    "type=top": {
+      "model": "mountainous:block/dimstone_slab_top"
+    }
+  }
+}

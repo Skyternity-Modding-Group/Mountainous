@@ -10,7 +10,8 @@ import net.fabricmc.api.ModInitializer
 @Suppress("unused")
 object ArchitecturySkeletonFabric: ModInitializer {
     override fun onInitialize() {
-        com.cyber2000.mountainous.ArchitecturySkeleton.init()
+        ArchitecturySkeleton.init()
+        Registration.init();
     }
 }
 

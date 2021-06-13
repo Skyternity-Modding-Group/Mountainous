@@ -3,8 +3,9 @@ package com.cyber2000.mountainous.items
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.item.FoodComponent
+import net.minecraft.item.Item
 
-class GingerRoot : net.minecraft.item.Item(
+class GingerRoot : Item(
     Settings()
         .group(net.minecraft.item.ItemGroup.FOOD)
         .food(

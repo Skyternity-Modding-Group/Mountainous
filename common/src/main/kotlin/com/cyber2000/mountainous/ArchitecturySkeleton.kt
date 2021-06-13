@@ -1,6 +1,5 @@
 package com.cyber2000.mountainous
 
-import com.cyber2000.mountainous.init.Registration
 import net.minecraft.util.Identifier
 
 object ArchitecturySkeleton {
@@ -8,7 +7,6 @@ object ArchitecturySkeleton {
 
     fun init() {
         com.cyber2000.mountainous.printHelloWorld()
-        Registration.init();
     }
 
     fun id(path: String): Identifier {
