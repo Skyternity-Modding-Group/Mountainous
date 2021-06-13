@@ -13,6 +13,7 @@ import net.minecraft.util.registry.Registry
 object ModSounds {
     val CLIFF_DISC: SoundEvent = register(ArchitecturySkeleton.MOD_ID + ":cliff", SoundEvent(ArchitecturySkeleton.id("disc.promises")))
 
+    @JvmStatic
     @Suppress("SameParameterValue")
     private fun <T : SoundEvent?> register(name: String, item: T): T {
         Registry.register(
@@ -23,5 +24,6 @@ object ModSounds {
         return item;
     }
 
+    @JvmStatic
     fun init() {}
 }

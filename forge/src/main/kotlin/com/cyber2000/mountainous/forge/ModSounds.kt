@@ -14,10 +14,12 @@ object ModSounds {
     val CLIFF_DISC: RegistryObject<SoundEvent> =
         register("cliff") { SoundEvent(ArchitecturySkeleton.id("disc.promises")) }
 
+    @JvmStatic
     @Suppress("SameParameterValue")
     private fun <T : SoundEvent?> register(name: String, supplier: Supplier<T>): RegistryObject<T> {
         return Registration.SOUNDS.register(name, supplier)
     }
 
+    @JvmStatic
     fun init() {}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "mountainous:blocks/polished_dimstone"
+  }
+}

@@ -24,9 +24,11 @@ object ModItems {
         )
     }
 
+    @JvmStatic
     private fun <T : Item?> register(name: String, supplier: Supplier<T>): RegistryObject<T> {
         return Registration.ITEMS.register(name, supplier)
     }
 
+    @JvmStatic
     fun init() {}
 }

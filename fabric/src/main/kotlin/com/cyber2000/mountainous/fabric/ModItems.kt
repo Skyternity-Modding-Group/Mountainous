@@ -24,6 +24,7 @@ object ModItems {
             ).maxCount(1).rarity(Rarity.RARE)
         ))
 
+    @JvmStatic
     private fun <T : Item?> register(name: String, item: T): T {
         Registry.register(
             Registry.ITEM,
@@ -33,5 +34,6 @@ object ModItems {
         return item;
     }
 
+    @JvmStatic
     fun init() {}
 }
