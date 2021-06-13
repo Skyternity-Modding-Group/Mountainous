@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mountainous:dimstone_wall",
+    "mountainous:dimstone_bricks_wall",
+    "mountainous:polished_dimstone_wall"
+  ]
+}
