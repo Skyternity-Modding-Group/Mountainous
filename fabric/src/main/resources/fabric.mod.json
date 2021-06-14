@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mountainous",
   "version": "${version}",
-  "name": "Architectury Skeleton",
+  "name": "Mountainous",
   "description": "If you're seeing this, then someone in our team messed up and forgot to replace this text. Actually, I'm surprised that this boots up at all - leocth",
   "authors": [
     "ReMod Studios"
@@ -13,11 +13,11 @@
   "entrypoints": {
     "main": [{
       "adapter": "kotlin",
-      "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabric"
+      "value": "com.cyber2000.mountainous.fabric.MountainousFabric"
     }],
     "client": [{
       "adapter": "kotlin",
-      "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabricClient"
+      "value": "com.cyber2000.mountainous.fabric.MountainousFabricClient"
     }]
   },
   "depends": {

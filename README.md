@@ -1,14 +1,14 @@
-# Architectury Skeleton
+# Mountainous
 The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mods, based on Architectury.
 ### Steps to make a new mod out of this template
 1. Clone with the Git tool of choice (command-line, IDEA built-in, etc.)
-2. Replace *all* occurences of `architectury-skeleton`, `ArchitecturySkeleton` and `archskeleton` in the project. Detailed list as follows:
-    * in the last line of `settings.gradle` (`rootProject.name = "architectury-skeleton"`)
+2. Replace *all* occurences of `mountainous`, `Mountainous` and `mountainous` in the project. Detailed list as follows:
+    * in the last line of `settings.gradle` (`rootProject.name = "mountainous"`)
     * the `archives_base_name` property in `gradle.properties`
     * the package names for all three modules (`com.cyber2000.mountainous.(fabric|forge)?`)
-    * the main class in `common` (`ArchitecturySkeleton`), along with its `MOD_ID` field (`archskeleton`)
-    * the client class in `common` (`ArchitecturySkeletonClient`)
-    * the modloader specific entrypoints (`ArchitecturySkeleton(Fabric|Forge)(Client)?`)
+    * the main class in `common` (`Mountainous`), along with its `MOD_ID` field (`mountainous`)
+    * the client class in `common` (`MountainousClient`)
+    * the modloader specific entrypoints (`Mountainous(Fabric|Forge)(Client)?`)
     * entrypoints in `fabric.mod.json`
         ```json5
         {
@@ -16,11 +16,11 @@ The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mod
           "entrypoints": {
             "main": [{
               "adapter": "kotlin",
-              "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabric"
+              "value": "com.cyber2000.mountainous.fabric.MountainousFabric"
             }],
             "client": [{
               "adapter": "kotlin",
-              "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabricClient"
+              "value": "com.cyber2000.mountainous.fabric.MountainousFabricClient"
             }]
           },
           // ...
@@ -29,12 +29,12 @@ The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mod
       * in both `<root>/forge/src/main/resources/META-INF/mods.toml` and `<root>/fabric/src/main/resources/fabric.mod.json`
         ```toml
         [[mods]]
-        modId = "archskeleton"
+        modId = "mountainous"
         ```
         ```json5
         {
           "schemaVersion": 1,
-          "id": "archskeleton"
+          "id": "mountainous"
           // ...
         }
         ```

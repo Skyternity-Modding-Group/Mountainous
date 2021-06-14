@@ -1,6 +1,6 @@
 package com.cyber2000.mountainous.client
 
-object ArchitecturySkeletonClient {
+object MountainousClient {
     fun init() {
         // client initialization code here
     }

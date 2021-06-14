@@ -2,13 +2,12 @@
 
 package com.cyber2000.mountainous.world.gen.forge
 
-import com.cyber2000.mountainous.ArchitecturySkeleton
+import com.cyber2000.mountainous.Mountainous
 import com.cyber2000.mountainous.forge.ModBlocks
 import net.minecraft.block.BlockState
 import net.minecraft.block.Blocks
 import net.minecraft.structure.rule.BlockMatchRuleTest
 import net.minecraft.structure.rule.RuleTest
-import net.minecraft.structure.rule.RuleTestType
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.BuiltinRegistries
 import net.minecraft.util.registry.Registry
@@ -53,25 +52,25 @@ object GenerationImpl {
     }
 
     internal fun loadFeatureCache() {
-        ArchitecturySkeleton.LOGGER.debug("Loader: $LOADER")
+        Mountainous.LOGGER.debug("Loader: $LOADER")
         LOADER.invoke()
     }
 
     @JvmStatic
     fun loadFeatures() {
         LOADER = {
-            ArchitecturySkeleton.LOGGER.debug("Getting features.")
+            Mountainous.LOGGER.debug("Getting features.")
             val dimstoneGen = getOreFeature(14, 10, 5, 90, OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, ModBlocks.DIMSTONE_BLOCK.get().defaultState, 29)
             val gingerRootsGen = getOreFeature(55, 55, 5, 130, DIRT, ModBlocks.GINGER_ROOTS_BLOCK.get().defaultState, 3)
 
-            ArchitecturySkeleton.LOGGER.debug("Exporting features.")
+            Mountainous.LOGGER.debug("Exporting features.")
             exportFeature(
-                ArchitecturySkeleton.id("ore_dimstone"),
+                Mountainous.id("ore_dimstone"),
                 { context: BiomeLoadingEvent -> context.category == Biome.Category.EXTREME_HILLS},
                 GenerationStep.Feature.UNDERGROUND_ORES, dimstoneGen
             )
             exportFeature(
-                ArchitecturySkeleton.id("ore_ginger_roots"),
+                Mountainous.id("ore_ginger_roots"),
                 { context: BiomeLoadingEvent -> context.category == Biome.Category.EXTREME_HILLS},
                 GenerationStep.Feature.UNDERGROUND_ORES, gingerRootsGen
             )

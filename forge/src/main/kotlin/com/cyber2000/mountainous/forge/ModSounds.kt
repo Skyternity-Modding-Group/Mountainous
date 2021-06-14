@@ -1,6 +1,6 @@
 package com.cyber2000.mountainous.forge
 
-import com.cyber2000.mountainous.ArchitecturySkeleton
+import com.cyber2000.mountainous.Mountainous
 import net.minecraft.sound.SoundEvent
 import net.minecraftforge.fml.RegistryObject
 import java.util.function.Supplier
@@ -12,7 +12,7 @@ import java.util.function.Supplier
  */
 object ModSounds {
     val CLIFF_DISC: RegistryObject<SoundEvent> =
-        register("cliff") { SoundEvent(ArchitecturySkeleton.id("disc.promises")) }
+        register("cliff") { SoundEvent(Mountainous.id("disc.promises")) }
 
     @JvmStatic
     @Suppress("SameParameterValue")

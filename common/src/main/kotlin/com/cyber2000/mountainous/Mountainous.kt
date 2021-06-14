@@ -5,7 +5,7 @@ import net.minecraft.util.Identifier
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 
-object ArchitecturySkeleton {
+object Mountainous {
     val LOGGER: Logger = LogManager.getLogger("Mountainous")
     const val MOD_ID = "mountainous"
 
@@ -15,6 +15,6 @@ object ArchitecturySkeleton {
     }
 
     fun id(path: String): Identifier {
-        return Identifier(com.cyber2000.mountainous.ArchitecturySkeleton.MOD_ID, path)
+        return Identifier(com.cyber2000.mountainous.Mountainous.MOD_ID, path)
     }
 }

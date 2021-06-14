@@ -1,24 +1,24 @@
 package com.cyber2000.mountainous.fabric
 
-import com.cyber2000.mountainous.ArchitecturySkeleton
-import com.cyber2000.mountainous.client.ArchitecturySkeletonClient
+import com.cyber2000.mountainous.Mountainous
+import com.cyber2000.mountainous.client.MountainousClient
 import net.fabricmc.api.ClientModInitializer
 import net.fabricmc.api.EnvType
 import net.fabricmc.api.Environment
 import net.fabricmc.api.ModInitializer
 
 @Suppress("unused")
-object ArchitecturySkeletonFabric: ModInitializer {
+object MountainousFabric: ModInitializer {
     override fun onInitialize() {
-        ArchitecturySkeleton.init()
+        Mountainous.init()
         Registration.init();
     }
 }
 
 @Suppress("unused")
 @Environment(EnvType.CLIENT)
-object ArchitecturySkeletonFabricClient: ClientModInitializer {
+object MountainousFabricClient: ClientModInitializer {
     override fun onInitializeClient() {
-        ArchitecturySkeletonClient.init()
+        MountainousClient.init()
     }
 }

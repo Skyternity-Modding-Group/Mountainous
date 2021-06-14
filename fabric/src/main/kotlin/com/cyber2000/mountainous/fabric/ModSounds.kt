@@ -1,6 +1,6 @@
 package com.cyber2000.mountainous.fabric
 
-import com.cyber2000.mountainous.ArchitecturySkeleton
+import com.cyber2000.mountainous.Mountainous
 import net.minecraft.sound.SoundEvent
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
@@ -11,7 +11,7 @@ import net.minecraft.util.registry.Registry
  * @author Qboi123
  */
 object ModSounds {
-    val CLIFF_DISC: SoundEvent = register(ArchitecturySkeleton.MOD_ID + ":cliff", SoundEvent(ArchitecturySkeleton.id("disc.promises")))
+    val CLIFF_DISC: SoundEvent = register(Mountainous.MOD_ID + ":cliff", SoundEvent(Mountainous.id("disc.promises")))
 
     @JvmStatic
     @Suppress("SameParameterValue")
