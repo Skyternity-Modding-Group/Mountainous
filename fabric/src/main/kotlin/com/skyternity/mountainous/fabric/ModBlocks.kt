@@ -29,6 +29,7 @@ object ModBlocks {
     val DIMSTONE_BRICKS_STAIRS: Block = register(Mountainous.MOD_ID + ":dimstone_bricks_stairs", DimstoneStairsBlock(DIMSTONE_BRICKS_BLOCK.defaultState))
     val DIMSTONE_BRICKS_WALL: Block = registerDeco(Mountainous.MOD_ID + ":dimstone_bricks_wall", DimstoneWallBlock())
     val GINGER_ROOTS_BLOCK: Block = register(Mountainous.MOD_ID + ":ginger_roots", GingerRootsBlock())
+    val GINGER_ROOTS_CROP_BLOCK: Block = register(Mountainous.MOD_ID + ":ginger_roots_crop", GrowableGingerRootsBlock())
 
     @JvmStatic
     private fun <T : Block> register(name: String, t: T): T {

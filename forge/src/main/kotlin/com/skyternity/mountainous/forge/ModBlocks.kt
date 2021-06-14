@@ -21,13 +21,14 @@ object ModBlocks {
     val POLISHED_DIMSTONE_BLOCK_STAIRS: RegistryObject<Block> = register("polished_dimstone_stairs") { DimstoneStairsBlock(POLISHED_DIMSTONE_BLOCK.get().defaultState) }
     val POLISHED_DIMSTONE_BLOCK_WALL: RegistryObject<Block> = registerDeco("polished_dimstone_wall") { DimstoneWallBlock() }
     val POLISHED_DIMSTONE_BLOCK_BUTTON: RegistryObject<Block> = registerRedstone("polished_dimstone_button") { DimstoneButtonBlock() }
-val POLISHED_DIMSTONE_BLOCK_PRESSURE_PLATE: RegistryObject<Block> = registerRedstone("polished_dimstone_pressure_plate") { DimstonePressurePlateBlock() }
+    val POLISHED_DIMSTONE_BLOCK_PRESSURE_PLATE: RegistryObject<Block> = registerRedstone("polished_dimstone_pressure_plate") { DimstonePressurePlateBlock() }
     val CHISELED_DIMSTONE_BLOCK: RegistryObject<Block> = register("chiseled_dimstone_bricks") { DimstoneBlock() }
     val DIMSTONE_BRICKS_BLOCK: RegistryObject<Block> = register("dimstone_bricks") { DimstoneBlock() }
     val DIMSTONE_BRICKS_BLOCK_SLAB: RegistryObject<Block> = register("dimstone_bricks_slab") { DimstoneSlabBlock() }
     val DIMSTONE_BRICKS_BLOCK_STAIRS: RegistryObject<Block> = register("dimstone_bricks_stairs") { DimstoneStairsBlock(DIMSTONE_BRICKS_BLOCK.get().defaultState) }
     val DIMSTONE_BRICKS_BLOCK_WALL: RegistryObject<Block> = registerDeco("dimstone_bricks_wall") { DimstoneWallBlock() }
     val GINGER_ROOTS_BLOCK: RegistryObject<Block> = register("ginger_roots") { GingerRootsBlock() }
+    val GINGER_ROOTS_CROP_BLOCK: RegistryObject<Block> = register("ginger_roots_crop") { GrowableGingerRootsBlock() }
 
     @JvmStatic
     private fun <T : Block> register(name: String, supplier: Supplier<T>): RegistryObject<T> {

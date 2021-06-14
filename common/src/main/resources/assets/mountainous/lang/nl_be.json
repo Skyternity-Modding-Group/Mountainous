@@ -1,0 +1,25 @@
+{
+  "item.mountainous.ginger": "Gember",
+  "item.mountainous.cliff_disc": "Music Disc",
+  "item.mountainous.cliff_disc.desc": "Pyrocide - Cliff",
+  "item.mountainous.cliff_disc.sub": "Pyrocide - Cliff",
+  "item.mountainous.ginger_candy": "Gember snoepje",
+  "item.mountainous.honey_candy": "Honing snoepje",
+
+  "block.mountainous.dimstone": "Donkersteen",
+  "block.mountainous.dimstone_slab": "Donkersteen plaat",
+  "block.mountainous.dimstone_stairs": "Donkersteen treden",
+  "block.mountainous.dimstone_wall": "Donkersteen muur",
+  "block.mountainous.polished_dimstone": "Gepolijst donkersteen",
+  "block.mountainous.polished_dimstone_slab": "Gepolijst donkersteen plaat",
+  "block.mountainous.polished_dimstone_stairs": "Gepolijst donkersteen treden",
+  "block.mountainous.polished_dimstone_wall": "Gepolijst donkersteen muur",
+  "block.mountainous.polished_dimstone_button": "Gepolijst donkersteen knop",
+  "block.mountainous.polished_dimstone_pressure_plate": "Gepolijst donkersteen drukplaat",
+  "block.mountainous.ginger_roots": "Gemberwortels",
+  "block.mountainous.dimstone_bricks": "Donkersteen blokken",
+  "block.mountainous.dimstone_bricks_slab": "Donkersteen blokken plaat",
+  "block.mountainous.dimstone_bricks_stairs": "Donkersteen blokken treden",
+  "block.mountainous.dimstone_bricks_wall": "Donkersteen blokken muur",
+  "block.mountainous.chiseled_dimstone_bricks": "Gebeiteld donkersteen blokken"
+}

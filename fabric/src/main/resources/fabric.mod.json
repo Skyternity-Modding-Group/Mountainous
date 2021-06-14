@@ -3,9 +3,9 @@
   "id": "mountainous",
   "version": "${version}",
   "name": "Mountainous",
-  "description": "If you're seeing this, then someone in our team messed up and forgot to replace this text. Actually, I'm surprised that this boots up at all - leocth",
+  "description": "A mod that expands the mountains and plains of Minecraft",
   "authors": [
-    "ReMod Studios"
+    "Skyternity Team"
   ],
   "license": "Apache-2.0",
   "icon": "assets/mountainous/icon.png",

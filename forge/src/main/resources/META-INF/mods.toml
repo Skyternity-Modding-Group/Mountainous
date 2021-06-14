@@ -8,9 +8,9 @@ modId = "mountainous"
 version = "${version}"
 displayName = "Mountainous"
 authors = "ReMod Studios"
+itemIcon="mountainous:dimstone"
 description = '''
-If you're seeing this, then someone in our team messed up and forgot
-to replace this text. Actually, I'm surprised that this boots up at all - leocth
+A mod that expands the mountains and plains of Minecraft
 '''
 #logoFile = ""
 
