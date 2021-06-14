@@ -8,7 +8,9 @@ import net.minecraft.block.MaterialColor
 import net.minecraft.sound.BlockSoundGroup
 
 class DimstoneBlock : BaseBlock(
-    BlockProperties.of(Material.STONE, MaterialColor.BLACK).tool(ToolType.PICKAXE, 1).strength(5.0f, 6.0f).sounds(
-        BlockSoundGroup.STONE
-    ).requiresTool()
+    BlockProperties.of(Material.STONE, MaterialColor.BLACK)
+                    .tool(ToolType.PICKAXE, 1)
+                    .strength(2.5f, 2.5f)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()
 )
