@@ -1,9 +1,9 @@
 @file:Suppress("DEPRECATION")
 
-package com.cyber2000.mountainous.world.gen.forge
+package com.skyternity.mountainous.world.gen.forge
 
-import com.cyber2000.mountainous.Mountainous
-import com.cyber2000.mountainous.forge.ModBlocks
+import com.skyternity.mountainous.Mountainous
+import com.skyternity.mountainous.forge.ModBlocks
 import net.minecraft.block.BlockState
 import net.minecraft.block.Blocks
 import net.minecraft.structure.rule.BlockMatchRuleTest

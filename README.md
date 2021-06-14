@@ -5,7 +5,7 @@ The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mod
 2. Replace *all* occurences of `mountainous`, `Mountainous` and `mountainous` in the project. Detailed list as follows:
     * in the last line of `settings.gradle` (`rootProject.name = "mountainous"`)
     * the `archives_base_name` property in `gradle.properties`
-    * the package names for all three modules (`com.cyber2000.mountainous.(fabric|forge)?`)
+    * the package names for all three modules (`com.skyternity.mountainous.(fabric|forge)?`)
     * the main class in `common` (`Mountainous`), along with its `MOD_ID` field (`mountainous`)
     * the client class in `common` (`MountainousClient`)
     * the modloader specific entrypoints (`Mountainous(Fabric|Forge)(Client)?`)
@@ -16,11 +16,11 @@ The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mod
           "entrypoints": {
             "main": [{
               "adapter": "kotlin",
-              "value": "com.cyber2000.mountainous.fabric.MountainousFabric"
+              "value": "com.skyternity.mountainous.fabric.MountainousFabric"
             }],
             "client": [{
               "adapter": "kotlin",
-              "value": "com.cyber2000.mountainous.fabric.MountainousFabricClient"
+              "value": "com.skyternity.mountainous.fabric.MountainousFabricClient"
             }]
           },
           // ...

@@ -1,7 +1,10 @@
-package com.cyber2000.mountainous.fabric
+package com.skyternity.mountainous.fabric
 
-import com.cyber2000.mountainous.Mountainous
-import com.cyber2000.mountainous.items.*
+import com.skyternity.mountainous.Mountainous
+import com.skyternity.mountainous.items.GingerChew
+import com.skyternity.mountainous.items.GingerRoot
+import com.skyternity.mountainous.items.HoneyCandy
+import com.skyternity.mountainous.items.createMusicDisc
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroup
 import net.minecraft.util.Identifier

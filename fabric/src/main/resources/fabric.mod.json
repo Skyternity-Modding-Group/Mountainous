@@ -13,11 +13,11 @@
   "entrypoints": {
     "main": [{
       "adapter": "kotlin",
-      "value": "com.cyber2000.mountainous.fabric.MountainousFabric"
+      "value": "com.skyternity.mountainous.fabric.MountainousFabric"
     }],
     "client": [{
       "adapter": "kotlin",
-      "value": "com.cyber2000.mountainous.fabric.MountainousFabricClient"
+      "value": "com.skyternity.mountainous.fabric.MountainousFabricClient"
     }]
   },
   "depends": {

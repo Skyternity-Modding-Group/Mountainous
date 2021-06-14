@@ -1,6 +1,5 @@
 package com.skyternity.mountainous.init
 
-import net.minecraft.block.OreBlock
 import net.minecraft.block.SpreadableBlock
 import net.minecraft.item.BlockItem
 import java.util.function.Supplier

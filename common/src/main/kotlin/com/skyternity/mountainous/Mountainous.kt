@@ -1,6 +1,6 @@
-package com.cyber2000.mountainous
+package com.skyternity.mountainous
 
-import com.cyber2000.mountainous.world.gen.loadFeatures
+import com.skyternity.mountainous.world.gen.loadFeatures
 import net.minecraft.util.Identifier
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
@@ -15,6 +15,6 @@ object Mountainous {
     }
 
     fun id(path: String): Identifier {
-        return Identifier(com.cyber2000.mountainous.Mountainous.MOD_ID, path)
+        return Identifier(com.skyternity.mountainous.Mountainous.MOD_ID, path)
     }
 }

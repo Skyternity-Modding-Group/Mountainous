@@ -1,6 +1,5 @@
 package com.skyternity.mountainous.blocks
 
-import com.skyternity.mountainous.init.BaseBlock
 import com.skyternity.mountainous.init.BaseSlabBlock
 import me.shedaniel.architectury.registry.BlockProperties
 import me.shedaniel.architectury.registry.ToolType

@@ -1,6 +1,6 @@
-package com.cyber2000.mountainous.fabric
+package com.skyternity.mountainous.fabric
 
-import com.cyber2000.mountainous.Mountainous
+import com.skyternity.mountainous.Mountainous
 import net.minecraft.sound.SoundEvent
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry

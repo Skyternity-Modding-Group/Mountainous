@@ -1,4 +1,4 @@
-package com.cyber2000.mountainous.world.gen.forge
+package com.skyternity.mountainous.world.gen.forge
 
 import net.minecraftforge.event.world.BiomeLoadingEvent
 import java.util.function.Consumer

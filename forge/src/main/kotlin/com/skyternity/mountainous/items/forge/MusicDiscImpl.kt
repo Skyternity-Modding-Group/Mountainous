@@ -1,4 +1,4 @@
-package com.cyber2000.mountainous.items.forge
+package com.skyternity.mountainous.items.forge
 
 import net.minecraft.item.Item
 import net.minecraft.item.MusicDiscItem

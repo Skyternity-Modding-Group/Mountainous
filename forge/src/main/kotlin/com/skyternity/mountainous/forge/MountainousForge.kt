@@ -1,8 +1,8 @@
-package com.cyber2000.mountainous.forge
+package com.skyternity.mountainous.forge
 
-import com.cyber2000.mountainous.Mountainous
-import com.cyber2000.mountainous.client.MountainousClient
-import com.cyber2000.mountainous.world.gen.forge.Generator
+import com.skyternity.mountainous.Mountainous
+import com.skyternity.mountainous.client.MountainousClient
+import com.skyternity.mountainous.world.gen.forge.Generator
 import me.shedaniel.architectury.platform.forge.EventBuses
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.event.world.BiomeLoadingEvent

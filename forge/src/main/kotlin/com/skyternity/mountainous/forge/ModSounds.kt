@@ -1,6 +1,6 @@
-package com.cyber2000.mountainous.forge
+package com.skyternity.mountainous.forge
 
-import com.cyber2000.mountainous.Mountainous
+import com.skyternity.mountainous.Mountainous
 import net.minecraft.sound.SoundEvent
 import net.minecraftforge.fml.RegistryObject
 import java.util.function.Supplier

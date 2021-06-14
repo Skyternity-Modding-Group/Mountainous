@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.cyber2000.mountainous.items.fabric
+package com.skyternity.mountainous.items.fabric
 
 import com.google.common.collect.Maps
 import net.fabricmc.api.EnvType

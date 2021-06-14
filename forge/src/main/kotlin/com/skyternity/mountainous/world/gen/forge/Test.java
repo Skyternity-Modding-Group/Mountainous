@@ -1,4 +1,4 @@
-package com.cyber2000.mountainous.world.gen.forge;
+package com.skyternity.mountainous.world.gen.forge;
 
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.biome.Biome;

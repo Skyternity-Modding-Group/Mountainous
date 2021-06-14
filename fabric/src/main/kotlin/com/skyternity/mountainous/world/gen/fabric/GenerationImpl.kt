@@ -1,9 +1,10 @@
 @file:Suppress("DEPRECATION")
 
-package com.cyber2000.mountainous.world.gen.fabric
+package com.skyternity.mountainous.world.gen.fabric
 
-import com.cyber2000.mountainous.Mountainous
-import com.cyber2000.mountainous.fabric.ModBlocks
+import com.skyternity.mountainous.Mountainous
+import com.skyternity.mountainous.fabric.ModBlocks
+import net.fabricmc.fabric.api.biome.v1.BiomeModifications.addFeature
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext
 import net.minecraft.block.BlockState
 import net.minecraft.block.Blocks
@@ -22,7 +23,6 @@ import net.minecraft.world.gen.feature.ConfiguredFeature
 import net.minecraft.world.gen.feature.Feature
 import net.minecraft.world.gen.feature.OreFeatureConfig
 import java.util.function.Predicate
-import net.fabricmc.fabric.api.biome.v1.BiomeModifications.addFeature as addFeature
 
 
 object GenerationImpl {

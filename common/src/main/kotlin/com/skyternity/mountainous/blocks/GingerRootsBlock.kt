@@ -1,6 +1,6 @@
-package com.cyber2000.mountainous.blocks
+package com.skyternity.mountainous.blocks
 
-import com.cyber2000.mountainous.init.BaseSpreadableBlock
+import com.skyternity.mountainous.init.BaseSpreadableBlock
 import me.shedaniel.architectury.registry.BlockProperties
 import me.shedaniel.architectury.registry.ToolType
 import net.minecraft.block.Material

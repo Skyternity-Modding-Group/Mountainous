@@ -1,6 +1,6 @@
-package com.cyber2000.mountainous.world.gen.forge
+package com.skyternity.mountainous.world.gen.forge
 
-import com.cyber2000.mountainous.Mountainous
+import com.skyternity.mountainous.Mountainous
 import net.minecraftforge.event.world.BiomeLoadingEvent
 import net.minecraftforge.eventbus.api.SubscribeEvent
 import net.minecraftforge.fml.common.Mod
