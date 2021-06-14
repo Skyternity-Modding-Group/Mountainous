@@ -6,29 +6,28 @@ license = "Apache-2.0"
 [[mods]]
 modId = "mountainous"
 version = "${version}"
-displayName = "Architectury Skeleton"
-authors = "ReMod Studios"
+displayName = "Mountainous"
+authors = "Skyternity Modding Group"
 description = '''
-If you're seeing this, then someone in our team messed up and forgot
-to replace this text. Actually, I'm surprised that this boots up at all - leocth
+A Mod which aims to expands the mountains a little in a vanilla fashion.
 '''
 #logoFile = ""
 
-[[dependencies.archskeleton]]
+[[dependencies.mountainous]]
 modId = "forge"
 mandatory = true
 versionRange = "[35,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.archskeleton]]
+[[dependencies.mountainous]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.archskeleton]]
+[[dependencies.mountainous]]
 modId = "architectury"
 mandatory = true
 versionRange = "[1.1.55,)"

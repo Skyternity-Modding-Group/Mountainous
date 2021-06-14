@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "mountainous",
   "version": "${version}",
-  "name": "Architectury Skeleton",
-  "description": "If you're seeing this, then someone in our team messed up and forgot to replace this text. Actually, I'm surprised that this boots up at all - leocth",
+  "name": "Mountainous",
+  "description": "A Mod which aims to expands the mountains a little in a vanilla fashion.",
   "authors": [
-    "ReMod Studios"
+    "Skyternity Modding Group"
   ],
   "license": "Apache-2.0",
   "icon": "assets/mountainous/icon.png",
@@ -13,11 +13,11 @@
   "entrypoints": {
     "main": [{
       "adapter": "kotlin",
-      "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabric"
+      "value": "com.skyternity.mountainous.fabric.MountainousFabric"
     }],
     "client": [{
       "adapter": "kotlin",
-      "value": "com.cyber2000.mountainous.fabric.ArchitecturySkeletonFabricClient"
+      "value": "com.skyternity.mountainous.fabric.MountainousFabricClient"
     }]
   },
   "depends": {
