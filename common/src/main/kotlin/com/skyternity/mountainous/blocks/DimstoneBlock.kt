@@ -10,7 +10,7 @@ import net.minecraft.sound.BlockSoundGroup
 class DimstoneBlock : BaseBlock(
     BlockProperties.of(Material.STONE, MaterialColor.BLACK)
                     .tool(ToolType.PICKAXE, 1)
-                    .strength(2.5f, 2.5f)
+                    .strength(2f, 7.5f)
                     .sounds(BlockSoundGroup.STONE)
                     .requiresTool()
 )

@@ -5,8 +5,9 @@ import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.item.AliasedBlockItem
 import net.minecraft.item.FoodComponent
+import net.minecraft.item.Item
 
-class GingerRoot : AliasedBlockItem(ModBlocks.GINGER_ROOTS_CROP_BLOCK.get(),
+class GingerRoot : Item(
     Settings()
         .group(net.minecraft.item.ItemGroup.FOOD)
         .food(FoodComponent.Builder()

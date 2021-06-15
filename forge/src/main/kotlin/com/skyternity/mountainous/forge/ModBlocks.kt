@@ -27,8 +27,16 @@ object ModBlocks {
     val DIMSTONE_BRICKS_BLOCK_SLAB: RegistryObject<Block> = register("dimstone_bricks_slab") { DimstoneSlabBlock() }
     val DIMSTONE_BRICKS_BLOCK_STAIRS: RegistryObject<Block> = register("dimstone_bricks_stairs") { DimstoneStairsBlock(DIMSTONE_BRICKS_BLOCK.get().defaultState) }
     val DIMSTONE_BRICKS_BLOCK_WALL: RegistryObject<Block> = registerDeco("dimstone_bricks_wall") { DimstoneWallBlock() }
-    val GINGER_ROOTS_BLOCK: RegistryObject<Block> = register("ginger_roots") { GingerRootsBlock() }
-    val GINGER_ROOTS_CROP_BLOCK: RegistryObject<Block> = register("ginger_roots_crop") { GrowableGingerRootsBlock() }
+    val GINGER_ROOTS_CROP_BLOCK: RegistryObject<Block> = registerNoItem("ginger_crop") { GrowableGingerRootsBlock() }
+    val GINGER_ROOTS_BLOCK: RegistryObject<Block> = register("ginger_roots") {
+        GingerRootsBlock {
+            val get = GINGER_ROOTS_CROP_BLOCK.get()
+            if (get is GrowableGingerRootsBlock) {
+                return@GingerRootsBlock get
+            }
+            return@GingerRootsBlock null;
+        }
+    }
 
     @JvmStatic
     private fun <T : Block> register(name: String, supplier: Supplier<T>): RegistryObject<T> {
@@ -43,6 +51,12 @@ object ModBlocks {
         })
         Registration.ITEMS.register(name, itemSupplier)
         return registryObject.get()
+    }
+
+    @Suppress("SameParameterValue")
+    @JvmStatic
+    private fun <T : Block> registerNoItem(name: String, supplier: Supplier<T>): RegistryObject<T> {
+        return Registration.BLOCKS.register(name, supplier)
     }
 
     @JvmStatic

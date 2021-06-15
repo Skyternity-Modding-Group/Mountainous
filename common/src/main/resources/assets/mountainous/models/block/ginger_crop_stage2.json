@@ -1,0 +1,6 @@
+{
+  "parent": "mountainous:block/hanging_crop",
+  "textures": {
+    "crop": "mountainous:blocks/ginger_crop_stage2"
+  }
+}

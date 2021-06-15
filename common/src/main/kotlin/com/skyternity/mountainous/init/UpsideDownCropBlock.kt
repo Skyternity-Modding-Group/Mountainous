@@ -18,7 +18,7 @@ open class UpsideDownCropBlock protected constructor(settings: Settings?) : Crop
 
     override fun canPlaceAt(blockState: BlockState, worldView: WorldView, blockPos: BlockPos): Boolean {
         val blockPos1 = blockPos.up()
-        return if (blockState.block === this) worldView.getBlockState(blockPos1).isSideSolidFullSquare(worldView, blockPos1, Direction.DOWN) else this.canPlantHangBelow(worldView.getBlockState(blockPos1), worldView, blockPos1)
+        return worldView.getBlockState(blockPos1).isSideSolidFullSquare(worldView, blockPos1, Direction.DOWN) && this.canPlantHangBelow(worldView.getBlockState(blockPos1), worldView, blockPos1)
     }
 
     override fun getOutlineShape(blockState: BlockState?, blockView: BlockView?, blockPos: BlockPos?, shapeContext: ShapeContext?): VoxelShape {

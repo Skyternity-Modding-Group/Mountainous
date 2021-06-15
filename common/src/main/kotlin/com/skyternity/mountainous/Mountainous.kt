@@ -15,6 +15,6 @@ object Mountainous {
     }
 
     fun id(path: String): Identifier {
-        return Identifier(com.skyternity.mountainous.Mountainous.MOD_ID, path)
+        return Identifier(MOD_ID, path)
     }
 }
